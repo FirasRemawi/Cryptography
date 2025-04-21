@@ -1,0 +1,116 @@
+.radio-button {
+    -fx-padding: 4.0px;
+}
+
+.radio-button .radio {
+    -fx-border-width: 2.0px;
+    -fx-border-color: #8A2BE2;
+    -fx-border-radius: 50.0%;
+    -fx-background-radius: 50.0%;
+    -fx-background-insets: 0.0px, 2.0px;
+    -fx-padding: 10.0px;
+}
+
+.radio-button:selected .radio {
+    -fx-background-color: #8A2BE2;
+}
+
+.radio-button:focused .radio {
+    -fx-border-color: derive(#8A2BE2, -20.0%);
+}
+
+.radio-button:hover .radio {
+    -fx-border-color: derive(#8A2BE2, 30.0%);
+}
+.label {
+    -fx-font-size: 14.0px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5C6BC0; /* Soft blue color for the text */
+    -fx-padding: 5.0px; /* Padding for spacing */
+}
+
+.text-field {
+    -fx-font-size: 14.0px;
+    -fx-border-color: #5C6BC0; /* Soft blue border color */
+    -fx-border-width: 2.0; /* Border thickness */
+    -fx-border-radius: 5.0; /* Rounded corners */
+    -fx-padding: 10.0px; /* Spacious padding inside the text field */
+    -fx-background-color: #FAFAFA; /* Light background color */
+    -fx-background-radius: 5.0; /* Rounded corners for the background */
+    -fx-prompt-text-fill: #9E9E9E; /* Gray color for prompt text */
+    -fx-effect: dropshadow(three-pass-box, rgba(0.0,0.0,0.0,0.1), 5.0, 0.0, 0.0, 1.0); /* Subtle shadow for depth */
+}
+
+.text-field:focused {
+    -fx-border-color: #3949AB; /* Darker blue border color when focused */
+    -fx-background-color: #E3F2FD; /* Lighter background color when focused */
+    -fx-effect: dropshadow(three-pass-box, rgba(0.0,0.0,0.0,0.2), 6.0, 0.0, 0.0, 2.0); /* More prominent shadow when focused */
+}
+.button {
+    -fx-background-color: #607D8B; /* Deep blue-grey color */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-weight: bold; /* Make text bold */
+    -fx-border-radius: 5.0px; /* Rounded corners */
+    -fx-background-radius: 5.0px; /* Match the border radius for the background */
+    -fx-padding: 10.0px 20.0px; /* Top/bottom, right/left padding */
+    -fx-effect: dropshadow(gaussian, rgba(0.0, 0.0, 0.0, 0.3), 10.0, 0.0, 0.0, 0.0); /* Subtle shadow for depth */
+}
+
+.button:hover {
+    -fx-background-color: #78909C; /* Lighter blue-grey color for hover */
+    -fx-cursor: hand; /* Change cursor to hand symbol */
+}
+
+.button:pressed {
+    -fx-background-color: #546E7A; /* Even lighter color for pressed state */
+    -fx-effect: dropshadow(gaussian, rgba(0.0, 0.0, 0.0, 0.3), 5.0, 0.0, 0.0, 0.0); /* Smaller shadow for pressed effect */
+}
+.your-image-view-style-class {
+    -fx-max-width: 20.0px;
+    -fx-max-height: 10.0px;
+    -fx-preserve-ratio: true;
+}
+.check-box {
+    -fx-padding: 4.0px;
+}
+
+.check-box .box {
+    -fx-background-color: transparent;
+    -fx-border-color: #5C6BC0; /* Soft blue border color */
+    -fx-border-width: 2.0px; /* Border thickness */
+    -fx-border-radius: 2.0; /* Slightly rounded corners for the box */
+}
+
+.check-box:selected .box {
+    -fx-background-color: #8A2BE2; /* Purple background when selected */
+}
+
+.check-box .mark {
+    -fx-background-color: white; /* White check mark */
+}
+
+.check-box:focused .box {
+    -fx-border-color: derive(#8A2BE2, -20.0%); /* Slightly darker border when focused */
+}
+
+.check-box:hover .box {
+    -fx-border-color: derive(#8A2BE2, 30.0%); /* Lighter border on hover */
+}
+.text-area {
+    -fx-font-size: 14.0px;
+    -fx-border-color: #5C6BC0; /* Soft blue border color */
+    -fx-border-width: 2.0px; /* Border thickness */
+    -fx-border-radius: 5.0px; /* Rounded corners */
+    -fx-padding: 10.0px; /* Spacious padding inside the text area */
+    -fx-background-color: #FAFAFA; /* Light background color */
+    -fx-background-radius: 5.0px; /* Rounded background corners */
+    -fx-prompt-text-fill: #9E9E9E; /* Gray color for prompt text */
+    -fx-effect: dropshadow(three-pass-box, rgba(0.0, 0.0, 0.0, 0.1), 5.0, 0.0, 0.0, 1.0); /* Subtle shadow for depth */
+}
+
+.text-area:focused {
+    -fx-border-color: #3949AB; /* Darker blue border color when focused */
+    -fx-background-color: #E3F2FD; /* Lighter background color when focused */
+    -fx-effect: dropshadow(three-pass-box, rgba(0.0, 0.0, 0.0, 0.2), 6.0, 0.0, 0.0, 2.0); /* More prominent shadow when focused */
+}
+
